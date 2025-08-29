@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ur">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sidiqu e akbar Dawakhana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://via.placeholder.com/64" alt="Hikmat Logo" class="logo" />
+        <div>
+          <h1>Sidiqu e akbar Dawakhana</h1>
+          <p class="tag">قدیم نسخے — خلوص کے ساتھ</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#services">سروسز</a>
+        <a href="#products">ادویات</a>
+        <a href="#contact">رابطہ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>آپ کی صحت، ہماری اولین ترجیح</h2>
+          <p>قدیم حکمت اور آزمودہ نسخوں کے ساتھ طبی رہنمائی اور ادویات دستیاب ہیں۔</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">اب رابطہ کریں</a>
+            <a class="btn-outline" href="#appointments">اپائنٹمنٹ</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://via.placeholder.com/420x300" alt="Hikmat illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container cards-section">
+      <h3>ہماری سروسز</h3>
+      <div class="cards"> 
+        <article class="card">
+          <h4>نسخہ نویسی</h4>
+          <p>ہومیو، یونانی اور روایتی نسخوں کی ماہر مشورہ کاری۔</p>
+        </article>
+        <article class="card">
+          <h4>کستوم ادویات</h4>
+          <p>آپ کی ضرورت کے مطابق خالص جڑی بوٹیوں کی تیاری۔</p>
+        </article>
+        <article class="card">
+          <h4>بیماری کی رہنمائی</h4>
+          <p>مزمن مسائل کے لئے طویل مدتی حکمت عملی۔</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="products" class="container">
+      <h3>نمایاں ادویات</h3>
+      <ul class="product-list">
+        <li>روایتی سیرپ — جلدی اثر</li>
+        <li>ہربل پاؤڈر — ہاضمہ کے لیے</li>
+        <li>جڑی بوٹیوں کا پیکیج — توانائی بڑہائیں</li>
+      </ul>
+    </section>
+    <section id="appointments" class="container contact-panel">
+      <h3>اپائنٹمنٹ / سوال</h3>
+      <p>ذیل میں نمبر یا ایڈریس کے ذریعے رابطہ کریں — یا نیچے فارم بھجوا دیں۔</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>فون نمبر</h4>
+          <!-- tel: link — click ya tap se call start hogi -->
+          <p class="contact-value"><a> 923113691317</a></p>
+          <p>6:00 PM — 12:00 PM</p>
+        </div>
+
+        <div class="contact-card">
+          <h4>ایڈریس</h4>
+          <p class="contact-value">, Hyderabad, Sindh</p>
+          <!-- google maps search link -->
+          <p><a href 9955+V5 Hyderabad, Pakistan target="_blank" rel="noopener">Map پر دیکھیں</a></p>
+        </div>
+
+        <div class="contact-card fullwidth">
+          <h4>پیغام بھیجیں</h4>
+          <form id="contactForm" action="#" onsubmit="alert('فارم سرور پر نہیں بھیجا گیا — یہ صرف ڈیمو ہے'); return false;">
+            <label>
+              آپ کا نام
+              <input type="text" name="name" required placeholder="مثلاً: احمد" />
+            </label>
+            <label>
+              فون نمبر
+              <input type="tel" name="phone" placeholder="+92 3xx xxxxxx" />
+            </label>
+            <label>
+              پیغام
+              <textarea name="message" rows="4" placeholder="اپنا سوال لکھیں..." required></textarea>
+            </label>
+            <div style="text-align: right;">
+              <button type="submit" class="btn">بھیجیں</button>
+            </div>
+          </form>
+        </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span>  — جڑی بوٹیوں اور روایت</p>
+      <p><a> href=923113691317 </a> · <a href="#contact">9955+V5 Hyderabad, Pakistan</a></p>
+    </div>
+  </footer
+
+  <script>
+    // current year auto-update
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
